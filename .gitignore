@@ -1,0 +1,5 @@
+# Project exclude paths
+/qp-business/target/
+/qp-common/qp-common-config/target/
+/qp-common/qp-common-model/target/
+/qp-common/qp-common-utils/target/
