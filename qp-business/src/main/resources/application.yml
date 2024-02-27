@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: qp-business
+  profiles:
+    active: dev

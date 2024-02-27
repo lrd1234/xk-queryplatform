@@ -1,0 +1,25 @@
+server:
+  port: 8888
+
+# 配置数据库连接信息
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://111.229.187.144:3308/xk?characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
+    username: rooter
+    password: 1234
+  # Redis的相关配置
+
+  redis:
+    #database: 0
+    host: 111.229.187.144
+    #101.132.194.255
+    #111.229.187.144
+    port: 6379
+    database: 0
+mybatis:
+  mapper-locations: classpath:/mapper/*/*.xml
+  config-location: classpath:/mybatis-config.xml
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*/*.xml
